@@ -1,0 +1,4 @@
+baseURL: https://madam.github.io/
+languageCode: en-us
+title: Muhammad Adam
+theme: ["hugo-paper"]
