@@ -6,7 +6,28 @@
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  menu:
+    main:
+      - name: Bio
+        url: 'en/'
+        weight: 1
+      - name: Articles
+        url: 'post/'
+        weight: 2
+
+
+ar:
+ languageCode: ar
+ languageDirection: "rtl"
+ contentDir: content/ar
+ title: محمد أدم
+ menu:
+   main:
+     - name: منشورات
+       url: 'post/'
+       weight: 2
+
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
